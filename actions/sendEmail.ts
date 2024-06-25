@@ -1,12 +1,12 @@
 "use server";
 
 import { Resend } from "resend";
-import { validateString } from "@/lib/utils";
+import { getErrorMessage, validateString } from "@/lib/utils";
 
 const resend = new Resend(process.env.RESEND_API_KEY);
 
 export const sendEmail = async (formData: FormData) => {
-  const senderEmail = formData.get("email");
+  const senderEmail = formData.get("senderEmail");
   const message = formData.get("message");
 
   if (!validateString(senderEmail, 500)) {
@@ -20,11 +20,18 @@ export const sendEmail = async (formData: FormData) => {
       error: "Invalid message",
     };
   }
-  resend.emails.send({
-    from: "onboarding@resend.dev",
-    to: "adriansandu9090@gmail.com",
-    subject: "Message from Adrian Sandu's Portfolio contact form",
-    reply_to: senderEmail as string,
-    text: message as string,
-  });
+
+  try {
+    await resend.emails.send({
+      from: "Contact Form <onboarding@resend.dev>",
+      to: "adriansandu9090@gmail.com",
+      subject: "Message from Adrian Sandu's Portfolio contact form",
+      reply_to: senderEmail as string,
+      text: message as string,
+    });
+  } catch (error: unknown) {
+    return {
+      error: getErrorMessage(error),
+    };
+  }
 };
