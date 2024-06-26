@@ -1,10 +1,9 @@
-import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
-import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import pizzaImg from "@/public/Pizza.png";
+import pawsomeImg from "@/public/Pawsome.png";
+import eventoImg from "@/public/Evento.png";
+import wildImg from "@/public/Wild.png";
 
 export const links = [
   {
@@ -30,54 +29,48 @@ export const links = [
   },
 ] as const;
 
-export const experiencesData = [
-  {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
-    description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
-  },
-  {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
-    description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
-  },
-] as const;
-
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Pawsome Pro",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "Pawsome Pro is a modern, full-stack web application for managing pet care, built with Next.js and Prisma for the backend.",
+    tags: ["Next.js", "Prisma", "Tailwind", "TypeScript", "Next Auth"],
+    imageUrl: pawsomeImg,
   },
   {
-    title: "rmtDev",
+    title: "Evento",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "Created a responsive platform for finding local events. Built using TypeScript, Next.js, Prisma, and Tailwind.",
+    tags: ["TypeScript", "Next.js", "JavaScript", "Tailwind", "Prisma"],
+    imageUrl: eventoImg,
+  },
+  {
+    title: "Cabin Management Portal",
+    description:
+      "Developed a full-stack cabin management application with user authentication, data visualisation and dark mode features.",
+    tags: ["React", "Styled Components", "React query", "Supabase"],
+    imageUrl: wildImg,
+  },
+  {
+    title: "Remote Job Board",
+    description:
+      "A public web app for developers to search, sort and bookmark job listings.",
+    tags: ["TypeScript", "JavaScript", "React", "Context API", "CSS"],
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Feedback Application",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Corpo Pulse offers users a seamless platform for submitting company feedback. Developed using TypeScript and React, it features a dynamic and intuitive UI.",
+    tags: ["TypeScript", "JavaScript", "React", "Context API", "CSS"],
+    imageUrl: corpcommentImg,
+  },
+  {
+    title: "React Pizza",
+    description:
+      "Developed with React, Redux, and React Router, the application provides an intuitive way to browse menus, place orders, and track delivery effortlessly.",
+    tags: ["TypeScript", "JavaScript", "React", "Context API", "CSS"],
+    imageUrl: pizzaImg,
   },
 ] as const;
 
