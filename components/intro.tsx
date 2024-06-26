@@ -60,10 +60,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi, I&apos;m Adrian.</span> I&apos;m a{" "}
-        <span className="font-bold">Frontend Developer</span> I enjoy building{" "}
-        <span className="italic">sites & apps</span>. My focus is{" "}
-        <span className="underline">React(Next.js)</span>
+        <span className="font-bold">Hi, I&apos;m Adrian,</span> a{" "}
+        <span className="font-bold">Frontend Developer</span> specializing{" "}
+        <span className="underline">in React and Next.js</span>. I enjoy
+        creating <span className="italic">dynamic</span> and user-friendly
+        websites and apps.{" "}
       </motion.h1>
 
       <motion.div
@@ -93,6 +94,7 @@ export default function Intro() {
           Download CV{" "}
           <HiDownload className="opacity-60 group-hover:translate-y-1 transition" />
         </a>
+
         <a
           className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60"
           href="https://www.linkedin.com/in/adrian-sandu-b91965276/"
