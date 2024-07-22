@@ -4,6 +4,7 @@ import pizzaImg from "@/public/Pizza.png";
 import pawsomeImg from "@/public/Pawsome.png";
 import eventoImg from "@/public/Evento.png";
 import wildImg from "@/public/Wild.png";
+import jetbyteImg from "@/public/JetByte.png";
 
 export const links = [
   {
@@ -39,12 +40,12 @@ export const projectsData = [
     link: "https://pawsome-pro.vercel.app/",
   },
   {
-    title: "Evento",
+    title: "JetByte",
     description:
-      "Created a responsive platform for finding local events. Built using TypeScript, Next.js, Prisma, and Tailwind.",
-    tags: ["TypeScript", "Next.js", "JavaScript", "Tailwind", "Prisma"],
-    imageUrl: eventoImg,
-    link: "https://evento-as90.vercel.app/",
+      "JetByte is an Open-AI powered travel companion web application built with Next.js and Neon/Postgresql for the database.",
+    tags: ["Next.js", "Tailwind", "Prisma", "Neon", "Clerk", "React Query"],
+    imageUrl: jetbyteImg,
+    link: "https://jetbyte.vercel.app/",
   },
   {
     title: "Cabin Management Portal",
@@ -74,7 +75,7 @@ export const projectsData = [
     title: "React Pizza",
     description:
       "Developed with React, Redux, and React Router, the application provides an intuitive way to browse menus, place orders, and track delivery effortlessly.",
-    tags: ["TypeScript", "JavaScript", "React", "Context API", "CSS"],
+    tags: ["JavaScript", "React", "Redux", "Context API", "CSS"],
     imageUrl: pizzaImg,
     link: "https://fast-react-pizza-as90.vercel.app/",
   },
