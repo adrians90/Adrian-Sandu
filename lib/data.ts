@@ -2,7 +2,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import pizzaImg from "@/public/Pizza.png";
 import pawsomeImg from "@/public/Pawsome.png";
-import eventoImg from "@/public/Evento.png";
+
 import wildImg from "@/public/Wild.png";
 import jetbyteImg from "@/public/JetByte.png";
 
