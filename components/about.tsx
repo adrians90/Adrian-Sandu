@@ -27,7 +27,7 @@ export default function About() {
         unique perspective and a
         <span className="font-bold"> problem-solving</span> mindset, which I now
         apply to my work in tech. As a{" "}
-        <span className="font-bold">Frontend Developer</span>, I specialize in
+        <span className="font-bold">Frontend Developer</span>, I specialise in
         building performant and intuitive websites and applications using{" "}
         <span className="font-bold">React</span>,{" "}
         <span className="font-bold">Next.js</span>,{" "}

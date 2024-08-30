@@ -2,7 +2,7 @@ import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
 import pizzaImg from "@/public/Pizza.png";
 import pawsomeImg from "@/public/Pawsome.png";
-
+import CyberImg from "@/public/CyberChow.png";
 import wildImg from "@/public/Wild.png";
 import jetbyteImg from "@/public/JetByte.png";
 
@@ -48,11 +48,11 @@ export const projectsData = [
     link: "https://jetbyte.vercel.app/",
   },
   {
-    title: "Cabin Management Portal",
+    title: "Cyber Chow",
     description:
-      "Developed a full-stack cabin management application with user authentication, data visualisation and dark mode features.",
-    tags: ["React", "Styled Components", "React query", "Supabase"],
-    imageUrl: wildImg,
+      "Cyber Chow is a futuristic food delivery web application. Built with TypeScript, React, Node.js, and MongoDB, the app offers a sleek and immersive user interface.",
+    tags: ["React", "TypeScript", "Zod", "React Query", "MongoDB"],
+    imageUrl: CyberImg,
     link: "https://the-wild-oasis-as90.netlify.app/",
   },
   {
