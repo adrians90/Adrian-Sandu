@@ -53,7 +53,7 @@ export const projectsData = [
       "Cyber Chow is a futuristic food delivery web application. Built with TypeScript, React, Node.js, and MongoDB, the app offers a sleek and immersive user interface.",
     tags: ["React", "TypeScript", "Zod", "React Query", "MongoDB"],
     imageUrl: CyberImg,
-    link: "https://the-wild-oasis-as90.netlify.app/",
+    link: "https://cyber-chow-frontend.onrender.com/",
   },
   {
     title: "Remote Job Board",
