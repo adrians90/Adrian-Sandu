@@ -7,7 +7,6 @@ export default function Footer() {
         <span className="font-semibold">About this website:</span> Built with
         React & Next.js (App Router & Server Actions), TypeScript, Tailwind CSS,
         Framer Motion, React Email & Resend, Vercel hosting.
-        <span className="font-bold"> Contains a bit of satire</span>
       </p>
     </footer>
   );

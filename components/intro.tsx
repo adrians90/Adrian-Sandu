@@ -62,9 +62,9 @@ export default function Intro() {
       >
         <span className="font-bold">Hi, I&apos;m Adrian,</span> a{" "}
         <span className="font-bold">Frontend Developer</span> specialising{" "}
-        <span className="underline">in React and Next.js</span>. I craft digital
-        experiences that are so <span className="italic">dynamic</span>, they
-        practically come to life.{" "}
+        <span className="underline">in React and Next.js</span>. I create
+        dynamic, engaging digital experiences that bring{" "}
+        <span className="italic">ideas</span> to life.{" "}
       </motion.h1>
 
       <motion.div

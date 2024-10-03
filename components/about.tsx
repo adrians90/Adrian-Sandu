@@ -19,26 +19,29 @@ export default function About() {
     >
       <SectionHeading>About me</SectionHeading>
       <p className="mb-3">
-        Let's get one thing straight:{" "}
-        <span className="italic">I dominated the property industry</span>, then
-        decided to level up and take on
-        <span className="font-bold"> software development.</span> Why? Because I
-        solve real-world problems, and frankly, tech needs me. My time in
-        <span className="italic"> real estate</span> gave me a unique edge - you
-        know, a perspective mere mortals lack.
-        <span className="font-bold">
+        After a successful career in{" "}
+        <span className="font-bold">the property industry</span>, I made the
+        leap to
+        <span className="font-bold"> software development </span>to solve
+        real-world problems through technology. My background in
+        <span className="italic"> real estate</span> has given me a unique
+        perspective, allowing me to approach challenges with a strategic mindset
+        that stands out in the tech world.
+        <span>
           {" "}
-          Now, I apply that to the tech world,
+          Now, I specialise in building{" "}
+          <span className="italic">
+            high-performance, intuitive websites and applications
+          </span>{" "}
+          using
         </span>{" "}
-        building lightning-fast, intuitive websites and apps using React,
-        Next.js, and TypeScript.{" "}
-        <span className="font-bold">
-          I don't just ride the wave of innovation; I <em>am</em> the wave.
+        <span className="font-bold">React, Next.js, and TypeScript.</span>{" "}
+        <span>
+          I'm always <span className="font-bold">learning and evolving</span> to
+          stay ahead of the curve.
         </span>{" "}
-        I'm constantly learning, evolving, and staying ahead of the curve,
-        because anything less is for amateurs. And when I'm not busy being
-        brilliant in code, I'm <span className="font-bold">gaming</span> - keeps
-        my mind sharp and my reflexes sharper.
+        Outside of development, you'll find me
+        <span className="font-bold"> gaming.</span>
       </p>
     </motion.section>
   );
