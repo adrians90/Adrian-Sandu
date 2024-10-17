@@ -60,11 +60,11 @@ export default function Intro() {
         initial={{ opacity: 0, y: 100 }}
         animate={{ opacity: 1, y: 0 }}
       >
-        <span className="font-bold">Hi, I&apos;m Adrian,</span> a{" "}
-        <span className="font-bold">Frontend Developer</span> specialising{" "}
-        <span className="underline">in React and Next.js</span>. I create
-        dynamic, engaging digital experiences that bring{" "}
-        <span className="italic">ideas</span> to life.{" "}
+        <span className="font-bold animate-pulse text-violet-500">
+          Hi, I&apos;m Adrian,
+        </span>{" "}
+        a <span className="font-bold">Frontend Developer</span> specialising{" "}
+        <span className="underline">in React and Next.js.</span>
       </motion.h1>
 
       <motion.div
@@ -77,13 +77,13 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-slate-900 text-slate-50 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-slate-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contact");
             setTimeOfLastClick(Date.now());
           }}
         >
-          Contact me here{" "}
+          Contact me{" "}
           <BsArrowRight className="opacity-70 group-hover:translate-x-1 transition" />
         </Link>
         <a

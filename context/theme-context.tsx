@@ -18,7 +18,7 @@ const ThemeContext = createContext<ThemeContextType | null>(null);
 export default function ThemeContextProvider({
   children,
 }: ThemeContextProviderProps) {
-  const [theme, setTheme] = useState<Theme>("light");
+  const [theme, setTheme] = useState<Theme>("dark");
 
   const toggleTheme = () => {
     if (theme === "light") {
@@ -59,13 +59,12 @@ export default function ThemeContextProvider({
   );
 }
 
-
 export function useTheme() {
-    const context = useContext(ThemeContext)
+  const context = useContext(ThemeContext);
 
-    if (context === null) {
-        throw new Error('useTheme must be used within a ThemeContextProvider')
-    }
+  if (context === null) {
+    throw new Error("useTheme must be used within a ThemeContextProvider");
+  }
 
-    return context
+  return context;
 }
