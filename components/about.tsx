@@ -35,7 +35,9 @@ export default function About() {
           </span>{" "}
           using
         </span>{" "}
-        <span className="font-bold">React, Next.js, and TypeScript.</span>{" "}
+        <span className="font-bold dark:text-violet-500 text-slate-950">
+          React, Next.js, and TypeScript.
+        </span>{" "}
         <span>
           I'm always <span className="font-bold">learning and evolving</span> to
           stay ahead of the curve.
