@@ -96,14 +96,14 @@ export default function Intro() {
         </a>
 
         <a
-          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60 dark:text-violet-500"
+          className="bg-white p-4 text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] active:scale-105 hover:text-gray-950 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-violet-500"
           href="https://www.linkedin.com/in/adrian-sandu-b91965276/"
           target="_blank"
         >
           <BsLinkedin />
         </a>
         <a
-          className="bg-white p-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-white/60 dark:text-violet-500"
+          className="bg-white p-4 text-[1.35rem] text-gray-700 flex items-center gap-2 rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer border border-black/10 dark:bg-white/10 dark:text-violet-500"
           href="https://github.com/adrians90"
           target="_blank"
         >
